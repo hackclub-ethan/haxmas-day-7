@@ -35,4 +35,7 @@ body{
 
 .ornament {
     z-index: 10;
+
+    max-width: 200px;
+    max-height: 200px;
 }
