@@ -1,0 +1,38 @@
+
+body{  
+    font-family: sans-serif;  
+    background-image: url("image/background.webp");
+    color: azure;  
+}  
+  
+#header, #footer{  
+    text-align: center;  
+}
+
+#tree-container {
+    max-width: 20rem;
+    display: flex;
+    margin: auto;
+}
+
+#tree {
+    width: 20rem;
+    margin-top: 4rem;
+
+    max-height: 95vh;
+
+    z-index: 0;
+}
+
+#star {
+    position: relative;
+    margin: 0 -13rem;
+    font-size: 5rem;
+    cursor: pointer;
+
+    z-index: 5;
+}
+
+.ornament {
+    z-index: 10;
+}
